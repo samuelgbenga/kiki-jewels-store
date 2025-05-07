@@ -1,14 +1,12 @@
-import { useState } from "react";
-import jewel from "./assets/image/jewels.jpg";
-
+import React from "react";
+import LandingPage from "./pages/LandingPage";
+import "./styles/LandingPage.css";
 
 function App() {
   return (
-    <>
-      <div className="bg-amber-700">
-        <img src={jewel} alt="jewels" />
-      </div>
-    </>
+    <div className="App">
+      <LandingPage />
+    </div>
   );
 }
 
